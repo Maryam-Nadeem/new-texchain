@@ -1,0 +1,572 @@
+Truffle Develop started at http://127.0.0.1:9545/
+truffle migrate -f 2 --to 2
+
+Accounts:
+(0) 0x4d8fa3d7c653907efcb9a24fc5029db9909fcd99
+(1) 0x18e02749dc7961dcbaf818675cf2ad72fa967939
+(2) 0x77e0dc0d3e0561b561522b336d56bdafefeca140
+(3) 0xb249875b96cf47bb169e7efb499051760be4a5a6
+(4) 0x826cf24aa505f1cd6656c7dc9e0fc019877f14b3
+(5) 0x996abc7de9d1e642513802a7a5ce10655eb000ac
+(6) 0xcfbe2f14889b8b5ed3c706d450d82ef70d476f03
+(7) 0xfaba40417ca2dc0a4e417c11e55ae69fbfa8cfb8
+(8) 0x4560612adc947170187121f2e52d8e17abae6a47
+(9) 0xc51b598a05c573e5cc41074adaedf5947dd2dba7
+
+Private Keys:
+(0) 0d1c5f8355b197b68f1eefd87737c0419e6cf92a3fda9bae6c41f9b02a2cbd94
+(1) 98f36fd22a0eebe7510f5e65c690c3f2a180cdbebaac2d154ee0c75c883f1a1f
+(2) e917b0232f681bc7a702d1f16b748e99c23a2931daedf81a13159335689d6f70
+(3) 8f404626182628117146267dc9ba7ebb38e8e72635bb516107f9643f2f41159c
+(4) ce6e4ec29e2ecc38c3ff3f50eec68237122f4a9030cfe64b5ebb6267b5a85354
+(5) 18f353253abdd27af52e76e46ec8945bd9dc547c62300f6e122a6564315d7901
+(6) b5666ba9853ef08b9a93a43450b75ec5ac58c8474ba074b07b33de0c8f15af53
+(7) 08e0264dd2b2c4ab226ef6c6d49d84e736471cb5fb7cdffcf00cb5dc81063c35
+(8) c701d8c947c31102144f7ec962a9c233b8218cd928ad41e63f360c1fb522b04b
+(9) f71f41124973932fbb462b15511168cc9d7dc1a3b329e67d88df36aa8efb6927
+
+Mnemonic: pilot depart bag primary zoo remain poverty afford dentist normal warfare pioneer
+
+⚠️  Important ⚠️  : This mnemonic was created for you by Truffle. It is not secure.
+Ensure you do not use it on production blockchains, or else you risk losing funds.
+
+
+
+
+
+truffle migrate --reset
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x83bf4ef852680d17c9d05088c78e6ac847e20973d03d88d157e7ab252c44dce3
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x50F65Ac2F188655122E834a27FAD7f6781F90055
+   > block number:        1
+   > block timestamp:     1613760414
+   > account:             0x4D8Fa3D7c653907efCB9A24fc5029Db9909fcd99
+   > balance:             99.99616114
+   > gas used:            191943 (0x2edc7)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00383886 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00383886 ETH
+
+
+
+2_deploy_migrations.js
+======================
+
+   Replacing 'AdminUser'
+   ---------------------
+   > block number:        8151652
+   > block timestamp:     1614504352
+   > account:             0x53fe80034dB699cb19663e8a7d9ABaB1e64E7f0C
+   > balance:             18.698300834
+   > gas used:            1751891 (0x1abb53)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003503782 ETH
+
+   -------------------------------------
+   > Total cost:         0.003503782 ETH
+
+
+3_deploy_migrations.js
+======================
+
+   Replacing 'Supplier'
+   --------------------
+   > block number:        8151654
+   > block timestamp:     1614504395
+   > account:             0xbc792347D9e5D4252fa5CB630CDCE0b337EFc45b
+   > balance:             18.698434894
+   > gas used:            343100 (0x53c3c)
+   > gas price:           2 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0006862 ETH
+
+   -------------------------------------
+   > Total cost:           0.0006862 ETH
+
+
+
+
+4_deploy_migrations.js
+======================
+
+   Replacing 'Supplychain'
+   -----------------------
+   > transaction hash:    0x5c00f0e8dd5cb3bdb2e5ac8bc1866bc06bb5d2d72ceccc06793ec13d2e4c1263
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x7C2b5Ec2C0460F3d6c4fCb4b6b3DA10bD44D2538
+   > block number:        8106904
+   > block timestamp:     1613832571
+   > account:             0xbc792347D9e5D4252fa5CB630CDCE0b337EFc45b
+   > balance:             18.699173616
+   > gas used:            933143 (0xe3d17)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01866286 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.01866286 ETH
+
+
+5_deploy_migrations.js
+======================
+
+   Replacing 'Roles'
+   -----------------
+   > transaction hash:    0x3a2a39c6a81fee86840427080b7568bf59b7a4f05e5856c378f27c2acb10d7c9
+   > Blocks: 1            Seconds: 5
+   > contract address:    0xCd68D97aBAD8eD3Ef263A1FB15876D91dcfc33d8
+   > block number:        8106905
+   > block timestamp:     1613832586
+   > account:             0x53fe80034dB699cb19663e8a7d9ABaB1e64E7f0C
+   > balance:             18.706325031
+   > gas used:            71714 (0x11822)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00143428 ETH
+
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00143428 ETH
+
+
+Summary
+=======
+> Total deployments:   4
+> Final cost:          0.0629684 ETH
+
+
+PS E:\nodeweb3\ethereuem> truffle migrate --network development
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+Network up to date.
+
+
+
+ganache accounts
+
+Ganache CLI v6.12.1 (ganache-core: 2.13.1)
+
+Available Accounts
+==================
+(0) 0x8985E4C8d3591Ab8D07dAf0577dfd7361e268ef8 (100 ET
+(1) 0xF0dEf7FCE2A19E52Ff231C2164ea3663b504dD90 (100 ET
+(2) 0x2534EBa2bD5b3B8d0C376E6210f13E9Fbb445b37 (100 ET
+(3) 0x2CA32D262a2a3EdE5F399982ac29110ff1fF6239 (100 ET
+(4) 0x4dCa55619EdAc304b6bA306D805c1Cf25a4978f2 (100 ET
+(5) 0x7671126b8eB1bA7453134CF41A011d204b1bcF49 (100 ET
+(6) 0x57A15D56E0d832a5aC8Ef2Ae5114D8e772938EaC (100 ET
+(7) 0x0753742695E3d063D757B17e73E9816BEeFb82D8 (100 ET
+(8) 0x40756BeCa51FE6eE185D50d001f2805677CCFa56 (100 ET
+(9) 0xaf51a3e7A506198b64478689c48A1FB0cB621E2d (100 ET
+
+Private Keys
+==================
+(0) 0x517b711ec0ec60d2fa8708639fe03c1c5b9aab7b14a3ac7b
+(1) 0x219109bd759b5b155f07930de928c0bcf06993f71896b6a3
+(2) 0x012959fa7853a235ad87af7ccc9ade7d14a1a8e6524f7e57
+(3) 0x12bdd61db098d411638275bf4d5be41d363cc61308c7d227
+(4) 0x94fb3324d3ce8baa7f47cc8ea74d229001f37f59013f02fd
+(5) 0x274486ec3570dc2b95d230a2d44a3de64501af4279ea5ade
+(6) 0x98ae1cf462614a46eb02b3b6b5aaa6d82d7c475963a76524
+(7) 0x64cbabbf6f16639c6d0b4bb7b443ff580d0a4bd21312b74f
+(8) 0xf9d81d047ecc93b2429c2d85e587f7785641456aec8f5955
+(9) 0x9d3c4d167fc2216abdc40ec993c7bd4d1751711cd105ade9
+
+HD Wallet
+==================
+oliday magnet misery                  ong cushion traf
+Base HD Path:  m/44'/60'/0'/0/{account_index}                               _index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:8545
+
+
+
+
+truffle unbox arvindkalra/express-box
+
+
+
+    class_defaults: {
+      from: '0x7104C070DaF82F9BE9e20CEfd7C9A678822B5Fd6',
+      gas: 6721975,
+      gasPrice: 20000000000
+    },
+    interfaceAdapter: Web3InterfaceAdapter 
+{ web3: [Web3Shim] },
+    web3: Web3Shim {
+      currentProvider: [Getter/Setter],    
+      _requestManager: [RequestManager],   
+      givenProvider: null,
+      providers: [Object],
+      _provider: [HttpProvider],
+      setProvider: [Function (anonymous)], 
+      setRequestManager: [Function (anonymous)],
+      BatchRequest: [Function: bound Batch],
+      extend: [Function],
+      version: '1.2.9',
+      utils: [Object],
+      eth: [Eth],
+      shh: [Shh],
+      bzz: [Bzz],
+      networkType: 'ethereum'
+    },
+    currentProvider: HttpProvider {        
+      withCredentials: false,
+      timeout: 0,
+      headers: undefined,
+      agent: undefined,
+      connected: true,
+      host: 'http://127.0.0.1:8545',       
+      httpAgent: [Agent],
+      send: [Function (anonymous)],        
+      _alreadyWrapped: true
+    },
+    network_id: '1611400388646',
+    ens: { enabled: false, registryAddress: null },
+    reloadJson: [Function (anonymous)]     
+  },
+  methods: {
+    'lastAccess()': [Function (anonymous)] 
+{
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'usersdetail(address)': [Function (anonymous)] {
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'authorizeCaller(address)': [Function (anonymous)] {
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'deAuthorizeCaller(address)': [Function (anonymous)] {
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'setUser(address,string,string,string,string,uint256)': [Function (anonymous)] {  
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'getUser(address)': [Function (anonymous)] {
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'setItems(uint256,string)': [Function (anonymous)] {
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    },
+    'getItem(uint256)': [Function (anonymous)] {
+      call: [Function (anonymous)],        
+      sendTransaction: [Function (anonymous)],
+      estimateGas: [Function (anonymous)], 
+      request: [Function (anonymous)]      
+    }
+  },
+  abi: [
+    {
+      inputs: [],
+      payable: false,
+      stateMutability: 'nonpayable',       
+      type: 'constructor',
+      constant: undefined
+    },
+    {
+      anonymous: false,
+      inputs: [Array],
+      name: 'AuthorizedCaller',
+      type: 'event',
+      constant: undefined,
+      payable: undefined,
+      signature: '0x8afeca650897be3183b7c0d24eba96a1b990f75c4bd74a0cfb2c0a71aec48e61' 
+    },
+    {
+      anonymous: false,
+      inputs: [Array],
+      name: 'DeAuthorizedCaller',
+      type: 'event',
+      constant: undefined,
+      payable: undefined,
+      signature: '0x9e8ca6ff03906e81e8a6a03d4f96b7edb0b97f0ed9d07ef1b699fff634385496' 
+    },
+    {
+      constant: true,
+      inputs: [],
+      name: 'lastAccess',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'view',
+      type: 'function',
+      signature: '0x3480898b'
+    },
+    {
+      constant: true,
+      inputs: [Array],
+      name: 'usersdetail',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'view',
+      type: 'function',
+      signature: '0xfb06e81c'
+    },
+    {
+      constant: false,
+      inputs: [Array],
+      name: 'authorizeCaller',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'nonpayable',       
+      type: 'function',
+      signature: '0x2c388d5d'
+    },
+    {
+      constant: false,
+      inputs: [Array],
+      name: 'deAuthorizeCaller',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'nonpayable',       
+      type: 'function',
+      signature: '0x1bcd250a'
+    },
+    {
+      constant: false,
+      inputs: [Array],
+      name: 'setUser',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'nonpayable',       
+      type: 'function',
+      signature: '0xb6550068'
+    },
+    {
+      constant: true,
+      inputs: [Array],
+      name: 'getUser',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'view',
+      type: 'function',
+      signature: '0x6f77926b'
+    },
+    {
+      constant: false,
+      inputs: [Array],
+      name: 'setItems',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'nonpayable',       
+      type: 'function',
+      signature: '0x9dad4561'
+    },
+    {
+      constant: true,
+      inputs: [Array],
+      name: 'getItem',
+      outputs: [Array],
+      payable: false,
+      stateMutability: 'view',
+      type: 'function',
+      signature: '0x3129e773'
+    }
+  ],
+  address: '0x67F4abcA6CcB5d3dA033e7F6bb2238E1E38c3FaB',
+  transactionHash: undefined,
+  contract: Contract {
+    setProvider: [Function (anonymous)],   
+    currentProvider: [Getter/Setter],      
+    _requestManager: RequestManager {      
+      provider: [HttpProvider],
+      providers: [Object],
+      subscriptions: Map(0) {}
+    },
+    givenProvider: null,
+    providers: {
+      WebsocketProvider: [Function: WebsocketProvider],
+      HttpProvider: [Function: HttpProvider],
+      IpcProvider: [Function: IpcProvider] 
+    },
+    _provider: HttpProvider {
+      withCredentials: false,
+      timeout: 0,
+      headers: undefined,
+      agent: undefined,
+      connected: true,
+      host: 'http://127.0.0.1:8545',       
+      httpAgent: [Agent],
+      send: [Function (anonymous)],        
+      _alreadyWrapped: true
+    },
+    setRequestManager: [Function (anonymous)],
+    BatchRequest: [Function: bound Batch], 
+    extend: [Function: ex] {
+      formatters: [Object],
+      utils: [Object],
+      Method: [Function: Method]
+    },
+    clearSubscriptions: [Function (anonymous)],
+    options: { address: [Getter/Setter], jsonInterface: [Getter/Setter] },
+    handleRevert: [Getter/Setter],
+    defaultCommon: [Getter/Setter],        
+    defaultHardfork: [Getter/Setter],      
+    defaultChain: [Getter/Setter],
+    transactionPollingTimeout: [Getter/Setter],
+    transactionConfirmationBlocks: [Getter/Setter],
+    transactionBlockTimeout: [Getter/Setter],
+    defaultAccount: [Getter/Setter],       
+    defaultBlock: [Getter/Setter],
+    methods: {
+      lastAccess: [Function: bound _createTxObject],
+      '0x3480898b': [Function: bound _createTxObject],
+      'lastAccess()': [Function: bound _createTxObject],
+      usersdetail: [Function: bound _createTxObject],
+      '0xfb06e81c': [Function: bound _createTxObject],
+      'usersdetail(address)': [Function: bound _createTxObject],
+      authorizeCaller: [Function: bound _createTxObject],
+      '0x2c388d5d': [Function: bound _createTxObject],
+      'authorizeCaller(address)': [Function: bound _createTxObject],
+      deAuthorizeCaller: [Function: bound _createTxObject],
+      '0x1bcd250a': [Function: bound _createTxObject],
+      'deAuthorizeCaller(address)': [Function: bound _createTxObject],
+      setUser: [Function: bound _createTxObject],
+      '0xb6550068': [Function: bound _createTxObject],
+      'setUser(address,string,string,string,string,uint256)': [Function: bound _createTxObject],
+      getUser: [Function: bound _createTxObject],
+      '0x6f77926b': [Function: bound _createTxObject],
+      'getUser(address)': [Function: bound 
+_createTxObject],
+      setItems: [Function: bound _createTxObject],
+      '0x9dad4561': [Function: bound _createTxObject],
+      'setItems(uint256,string)': [Function: bound _createTxObject],
+      getItem: [Function: bound _createTxObject],
+      '0x3129e773': [Function: bound _createTxObject],
+      'getItem(uint256)': [Function: bound 
+_createTxObject]
+    },
+    events: {
+      AuthorizedCaller: [Function: bound ],      '0x8afeca650897be3183b7c0d24eba96a1b990f75c4bd74a0cfb2c0a71aec48e61': [Function: bound ],
+      'AuthorizedCaller(address)': [Function: bound ],
+      DeAuthorizedCaller: [Function: bound 
+],
+      '0x9e8ca6ff03906e81e8a6a03d4f96b7edb0b97f0ed9d07ef1b699fff634385496': [Function: bound ],
+      'DeAuthorizedCaller(address)': [Function: bound ],
+      allEvents: [Function: bound ]        
+    },
+    _address: '0x67F4abcA6CcB5d3dA033e7F6bb2238E1E38c3FaB',
+    _jsonInterface: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ]
+  },
+  AuthorizedCaller: [Function (anonymous)],  DeAuthorizedCaller: [Function (anonymous)],
+  lastAccess: [Function (anonymous)] {     
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  usersdetail: [Function (anonymous)] {    
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  authorizeCaller: [Function (anonymous)] {    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  deAuthorizeCaller: [Function (anonymous)] {
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  setUser: [Function (anonymous)] {        
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  getUser: [Function (anonymous)] {        
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  setItems: [Function (anonymous)] {       
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  getItem: [Function (anonymous)] {        
+    call: [Function (anonymous)],
+    sendTransaction: [Function (anonymous)],
+    estimateGas: [Function (anonymous)],   
+    request: [Function (anonymous)]        
+  },
+  sendTransaction: [Function (anonymous)], 
+  send: [Function (anonymous)],
+  allEvents: [Function (anonymous)],       
+  getPastEvents: [Function (anonymous)]    
+}
